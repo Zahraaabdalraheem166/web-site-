@@ -1,0 +1,397 @@
+:root{
+    --pink:#544521;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+
+
+
+
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+   background-color: white;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 900;
+ 
+}
+
+
+
+
+
+
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:rgb(2, 2, 2);
+}
+
+
+
+
+
+
+
+header #toggler{
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(drew-coffman-1872.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+   
+    
+    
+}
+
+.home .content{
+    max-width: 50rem;
+ 
+   
+}
+
+.home .content h3{
+    font-size: 1.5rem;
+    color:#f7f7f7;
+   
+   
+    
+  
+}
+
+.home .content h1{
+    font-size: 3rem;
+    color:#f7f7f7;
+    
+   
+}
+.home .content h2{
+    font-size: 2rem;
+    color:#f7f7f7;
+
+    
+}
+
+
+
+
+.buttons {
+    margin-top: 30px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    text-decoration: none;
+}
+.solid {
+    background-color: #77603a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #77603a;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.solid:hover {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.outline:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+ .content {
+
+    display: inline-block;
+    margin-top: 5px;
+  
+ }
+ 
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ 
+ .row{
+   
+        Display: inline-block;
+        
+       
+
+   
+ }
+ .row img{
+    flex: 1;
+    background-image: url("alexandru-stavrica-170390-800x760.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35em;
+  
+
+ }
+ section{
+    padding: 100px 100px;
+    align-items: center;
+    background-color: #fff;
+}
+ 
+.content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.content{
+    padding: 4rem;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8e754e;
+    margin-bottom: 30px;
+
+
+}
+.part{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: whitesmoke;
+    
+}
+.roww img{
+    flex: 1;
+    background-image: url("full-2-800x640.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35em;
+    
+}
+.ro h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #191714;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.ro p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8e754e;
+    margin-bottom: 40px;
+}
+
+.ro{
+    flex: 1;
+        padding: 0px 50px;
+}
+
+
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+  float: left;
+  margin: 10px 5px 20px 25px;
+  /* margin:auto; */
+    text-align: center;
+}
+.item img {
+    width: 100%;
+    text-align: center;
+
+}
+.item h3{
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+.item p{
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #8e754e;
+    
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: whitesmoke;
+
+}
+.part5 img{
+    flex: 1;
+    background-image: url("WhatsApp\ Image\ 2023-03-24\ at\ 10.27.21.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+    float: right;
+    margin: 0;
+  
+
+}
+
+.part5 h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #191714;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.part5 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8e754e;
+    margin-bottom: 40px;
+}
+.part5{
+    flex: 1;
+    padding: 0px 50px;
+}
+footer{
+    padding: 100px 100px;
+    align-items: center;
+    background-color: #353330;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+}
+.foot{
+    font-size: 15px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+   
+}
+
+
+.footer h4{
+    font-size: 20px;
+    color: rgb(10, 9, 9);
+    padding: 3rem;
+}
+.footer h5{
+    font-size: 15px;
+    color: #8e754e;
+    flex-direction: column;
+    padding: 3rem;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ 
+}
+.socialmedia i{
+    margin:1em 1em;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 20px;
+    background-color: #77603a;
+    border-radius: 100%;
+    border: #77603a 0.5px solid;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
